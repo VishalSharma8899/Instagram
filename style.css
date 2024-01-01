@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+     background-image: url(https://bit.ly/44VaKoy); 
+     background-position: center;
+     background-size: cover;
+}
+.container{
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: center;
+    align-items: center;
+       
+}
+.insta{
+     height: 9vh;
+    width: 21vw;
+    /* border: black ;
+    border: solid;
+    border-radius: 5px;
+*/
+ 
+   
+ }
+.head{
+    width: 21vw;
+    height: 50vh;
+     border: 2px solid rgb(198, 130, 140);
+     border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 6px;
+    padding: 20px;
+    backdrop-filter: blur(15px);
+    box-shadow: 1px 1px 10px  rgb(239, 198, 204) ;
+    
+}
+.img img{
+    height: 9vh;
+    width: 21vw;
+}
+.username{
+    margin: 13px;
+    padding: 2px;
+}
+.username input{
+    width: 19vw;
+    height: 5vh;
+    margin: 13px;
+    padding: 2px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid beige;
+}
+.password{
+    margin: -32px;
+    padding: 2px;
+}
+.password input{
+    width: 19vw;
+    height: 5vh;
+    margin: 13px;
+    padding: 2px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid beige;
+}
+.login{
+    margin: 13px;
+    padding: 2px;
+}
+.login input{
+    width: 17vw;
+    height: 5vh;
+    margin: 13px;
+    padding: 2px;
+    background: transparent;
+    /* border: none; */
+    border-bottom: 2px solid black;
+    border-radius: 20px;
+    background-color: rgba(238,174,202,1);
+    
+}
+.fb{
+    display: flex;
+    flex-direction: row;
+     
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 19vw;
+    height: 5vh;
+    margin: 10px;
+    padding: 4px;
+    border: white 2px;
+    backdrop-filter: blur(15px);
+
+}
+.fbimg img{
+    width: 1.2vw;
+    height: 2vh;
+    border: solid snow;
+    margin: 5px;
+}
+.fblink{
+    margin-left: 7px;
+}
+.sinup{
+    width: 21vw;
+    height: 5vh;
+    border: 2px solid rgb(198, 130, 140);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px  rgb(239, 198, 204) ;
+
+}
